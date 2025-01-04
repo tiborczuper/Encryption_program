@@ -10,6 +10,4 @@ decrypted_message = ""
 for letter in encrypted_message:
     decrypted_message += chars[key.index(letter)]
 
-print(chars)
-print(key)
-print(decrypted_message)
+print(f"\nA dekódolt üzenet: {decrypted_message}")

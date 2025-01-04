@@ -18,8 +18,6 @@ encrypted_text = ""
 for letter in text:
      encrypted_text += key[chars.index(letter)]
 
-print(f"Megadott üzenet: {text}")
-print(f"Titkosított üzenet:")
-print(encrypted_text)
-print(f"Titkosítási kulcs:")
-print(keystr)
+print(f"Megadott üzenet: {text}\n")
+print(f"Titkosított üzenet:\n{encrypted_text}")
+print(f"Titkosítási kulcs:\n{keystr}")
